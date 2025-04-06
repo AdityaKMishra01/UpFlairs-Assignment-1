@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+}
+
+.navBar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.navBar p {
+  font-size: 25px;
+  padding-left: 30px;
+  font-family: sans-serif;
+}
+
+.cardBox {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cardBox .heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+.cardBox .heading .mainH{
+    font-size: 30px;
+    padding-left: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+
+}
+
+.cardBox .heading .secondH{
+    padding-right: 100px;
+    text-decoration: underline;
+}
+
+.cardDiv{
+    display: flex;
+}
+
+.card {
+  width: 280px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: rgba(175, 175, 175, 0.4);
+  margin: 40px;
+
+}
+
+.card .img {
+  position: relative;
+  height: 310px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+
+.card .img .img1,
+.img2 {
+  position: absolute;
+  border-radius: 20px;
+  width: 200px;
+  height: 300px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.card .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card .img .img2 {
+  bottom: -350px;
+  transition-duration: 1s;
+
+}
+
+.card .img:hover .img2 {
+  bottom: -5px;
+}
+
+
+.card .title .Pname p{
+    font-size: 22px;
+    margin-left: 20px;
+
+}
+
+.card .title .price{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.card button{
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgba(41, 41, 41, 0.74);
+    margin-left: 140px;
+    cursor: pointer;
+}
+
+
+
+.card button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.card button:hover .icon{
+    color: black;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.474);
+    background-color: rgba(114, 114, 114, 0.1);
+}
+
+footer .flipstore{
+    width: 270px;
+}
+
+footer .flipstore p{
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.349);
+}
+
+footer .quick-Links{
+    width: 150px;
+    color: rgba(0, 0, 0, 0.349);
+
+}
+
+footer .quick-Link .quickLink{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+footer .quick-Link .quick{
+    font-size: 13px;
+    width: 150px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.349);
+
+}
+
+footer .quick-Link .quick .pnum{
+    font-weight: 700;
+    padding-top:5px ;
+}
